@@ -35,14 +35,14 @@ storage is a mechanism for storing information that can be retrieved based on it
 than its location. Stated another way, all files stored using IPFS are given names derived from
 the hash of their content.
 
-IPFS是用于存储内容可寻址文件的新兴标准。内容可寻址存储是一种基于其内容而不是其位置来检索的信息的存储机制。换句话说，使用IPFS存储的所有文件的名称都是从其内容的散列中生成。
+IPFS是用于存储内容可寻址文件的新兴标准。内容可寻址存储是一种基于其内容而不是其位置来检索的信息的存储机制。换句话说，使用IPFS存储的所有文件的文件名都是从其内容生成的散列。
 
 What this means is that the same file will have the same name on every computer, and the
 contents of that file can never change without also changing the name of the file. It also means
 that when you download a file from a server you can verify that it is the exact file you requested
 by recalculating the name based on the content provided by the server.
 
-这意味着同一个文件在每台计算机上都具有相同的名称，并且更改文件内容会导致文件名称的更改。这也意味着当您从服务器下载一个文件夹时，您可以根据服务器提供的内容重新计算文件名称来验证文件是否为您请求的文件。
+这意味着同一个文件在每台计算机上都具有相同的文件名称，并且更改文件内容会导致文件名称的更改。这也意味着当您从服务器下载一个文件时，您可以根据服务器提供的内容重新计算文件名称来验证文件是否为您请求的文件。
 
 IPFS also provides a peer to peer (P2P) network layer that allows computers to discover and
 share files based on their deterministic names. However, this P2P network layer does not
